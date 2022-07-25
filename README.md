@@ -1,16 +1,24 @@
-# README
+# VSCode .NET/C# Extension Pack
+An extension pack for Python development in VS Code. Easiest way to install is via the marketplace.
 
-## This is the README for your extension pack "code-netpack"
+## Manual installation
+Download the vsix-package from Packages to the right in the github repository.
+You can also clone the repository into the `<user home>/.vscode/extensions` folder and restart VS Code.
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+## Development
+1. Clone the repository
+2. Open the folder in VSCode
+3. Make your changes
+4. Press F5 to start a new window with the extension pack for testing
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+## Usage
 
-## For more information
+The extension pack is a collection of extensions that are useful for .NET development.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Contributing
 
-**Enjoy!**
+Contributions are welcome.
+
+## License
+Gnu General Public License v3.0
+Copyright (c) 2022 [Scheibling]

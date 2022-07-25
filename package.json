@@ -4,38 +4,34 @@
     "description": "VS Code extension packages for .NET development",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.69.0"
+        "vscode": "^1.60.0"
     },
     "categories": [
         "Extension Packs"
     ],
+    "publisher": "scheiblingco",
+    "private": false,
+    "icon": "images/icon128.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/scheiblingco/code-netpack"
+    },
+    "bugs": {
+        "url": "https://github.com/scheiblingco/code-netpack/issues"
+    },
+    "author": {
+        "name": "Scheibling Consulting",
+        "email": "it@scheibling.se"
+    },
     "extensionPack": [ 
-        "Extensions", 
-        "installed", 
-        "on", 
-        "WSL:", 
-        "Ubuntu:", 
-        "2gua.rainbow-brackets", 
-        "batisteo.vscode-django", 
-        "donjayamanne.python-environment-manager", 
-        "GitHub.copilot", 
         "hbenl.vscode-test-explorer", 
-        "jgsqware.gitlab-ci-templates", 
-        "KevinRose.vsc-python-indent", 
-        "littlefoxteam.vscode-python-test-adapter", 
-        "ms-azuretools.vscode-docker", 
-        "ms-dotnettools.csharp", 
-        "ms-python.pylint", 
-        "ms-python.python", 
-        "ms-python.vscode-pylance", 
-        "ms-toolsai.jupyter", 
-        "ms-toolsai.jupyter-renderers", 
-        "ms-vscode.js-debug-companion", 
-        "ms-vscode.test-adapter-converter", 
-        "njpwerner.autodocstring", 
-        "njqdev.vscode-python-typehint", 
-        "redhat.vscode-yaml", 
-        "scheiblingco.code-pypack", 
+        "ms-dotnettools.csharp",
+        "kreativ-software.csharpextensions",
+        "Fudge.auto-using",
+        "formulahendry.dotnet-test-explorer",
+        "patcx.vscode-nuget-gallery",
+        "2gua.rainbow-brackets", 
+        "GitHub.copilot", 
         "VisualStudioExptTeam.vscodeintellicode"
     ]
 }
