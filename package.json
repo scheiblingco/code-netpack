@@ -2,7 +2,7 @@
     "name": "code-netpack",
     "displayName": "Code NetPack",
     "description": "VS Code extension packages for .NET development",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -32,6 +32,6 @@
         "patcx.vscode-nuget-gallery",
         "2gua.rainbow-brackets", 
         "GitHub.copilot", 
-        "VisualStudioExptTeam.vscodeintellicode"
+        "k--kato.docomment"
     ]
 }
