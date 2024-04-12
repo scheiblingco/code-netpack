@@ -2,7 +2,7 @@
     "name": "code-netpack",
     "displayName": "Code NetPack",
     "description": "VS Code extension packages for .NET development",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -24,14 +24,16 @@
         "email": "it@scheibling.se"
     },
     "extensionPack": [ 
-        "hbenl.vscode-test-explorer", 
+        "ms-dotnettools.vscode-dotnet-runtime",
         "ms-dotnettools.csharp",
-        "kreativ-software.csharpextensions",
-        "Fudge.auto-using",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscodeintellicode-csharp",
+
+        "hbenl.vscode-test-explorer", 
         "formulahendry.dotnet-test-explorer",
+
         "patcx.vscode-nuget-gallery",
-        "2gua.rainbow-brackets", 
-        "GitHub.copilot", 
-        "k--kato.docomment"
+
+        "GitHub.copilot"
     ]
 }
